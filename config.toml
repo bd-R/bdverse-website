@@ -1,4 +1,4 @@
-baseurl = "https://example.org"
+baseurl = "/"
 title = "The bdverse"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
