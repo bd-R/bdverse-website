@@ -1,0 +1,120 @@
+baseURL: "/"
+languageCode: en-us
+title: bdverse
+theme: hugo-fresh
+relativeurls: true
+publishDir: "docs"
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: ""
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: bddwc
+    url: /
+  - title: bdchecks
+    url: /
+  - title: bdclean
+    url: /
+  - title: bdvis
+    url: /
+  - title: bdtools
+    url: /
+  - title: Resources
+    sublinks:
+    - title: User Guide
+      url: https://bd-r.github.io/bdverse-user-guide/
+    - title: Developer Guide
+      url: https://bd-r.github.io/bdverse-developer-guide/
+    - title: Publications
+      url: /
+    - title: GitHub
+      url: https://github.com/bd-R
+  - title: About
+    sublinks:
+    - title: The Team
+      url: /
+    - title: Fundings
+      url: /
+  section1:
+    title: The bdverse 
+    subtitle: A family of R packages for biodiversity data.
+    tiles:
+    - title: Standardize
+      icon: bddwc
+      text: Standardize Darwin Core (DwC) Field Names
+      url: /
+      buttonText: bddwc
+    - title: Check
+      icon: bdchecks
+      text: Create, Filter, Perform, and Manage Data Quality Checks
+      url: /
+      buttonText: bdchecks
+    - title: Clean
+      icon: bdclean
+      text: User-friendly Workflows for Biodiversity Data Cleaning
+      url: /
+      buttonText: bdclean 
+    - title: Explore
+      icon: bdvis
+      text: Interactive Biodiversity Data Visualizations & Dashboards 
+      url: /
+      buttonText: Coming Soon
+  section2:
+    title: More information
+    subtitle: To get you started...
+    features:
+    - title: User Guide
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Take it for a spin & give us feedback 
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Developer Guide
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+    - title: Standing on the shoulders of giants
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Publications
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+    - title: The Team
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: bdverse
+    subtitle: b*iodiversity d*ata uni*verse
+    buttonText: Get started
+    buttonLink: "#"
+  section5: false
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/bd-R
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: false
+    quicklinks:
+      column2:
+        title: ""
+        links:
+        - text: Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown

@@ -1,0 +1,13 @@
+{{- $hero       := .Site.Params.hero }}
+{{- $title      := index $hero "title" }}
+{{- $subtitle   := index $hero "subtitle" }}
+{{- $buttonText := index $hero "buttontext" }}
+{{- $buttonLink := index $hero "buttonlink" }}
+{{- $image      := index $hero "image" }}
+<div class="hero-body-1">
+  <img src="images/universe.jpg">
+  <div id="dependencyGraph"></div>
+  <script>
+      document.getElementById("dependencyGraph").innerHTML='<object type="text/html" data="dependency.html"></object>';
+</script>
+</div>
