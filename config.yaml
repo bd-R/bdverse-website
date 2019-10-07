@@ -1,7 +1,7 @@
 baseURL: "/"
 languageCode: en-us
 title: bdverse
-theme: hugo-fresh
+theme: "hugo-fresh"
 relativeurls: true
 publishDir: "docs"
 
