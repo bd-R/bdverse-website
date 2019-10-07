@@ -1,0 +1,652 @@
+
+/*---------------------------------------
+   Speakers section
+-----------------------------------------*/
+#speakers {
+    background: #e9e9e9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+#speakers .heading {
+  margin: 0;
+  padding: 25px;
+}
+
+#speakers .heading h2 {
+  margin: 0;
+  padding: 5px;
+  font-weight: 400;
+}
+
+#speakers .heading span {
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  width: 40px;
+  display: inline-block;
+  background-color: rgb(44, 44, 44);
+}
+
+#speakers .members {
+  width: 100%;
+  height: 500px;
+  background-color: #e9e9e9;
+  padding: 10px;
+  margin: 0;
+  overflow: hidden;
+}
+
+#speakers .members.head {
+  height: auto;
+}
+
+#speakers .members.active {
+  height: auto;
+}
+
+#speakers .members .card {
+  width: 225px;
+  height: 290px;
+  transform-style: preserve-3d;
+  perspective: 800px;
+  transition: .2s;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+#speakers .members .card .card-front {
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../images/team/placeholder.png);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+  transition: 1s;
+  overflow: hidden;
+}
+
+#speakers .members .card:hover .card-front{
+  transform: rotateY(-180deg);
+}
+
+#speakers .members .card .card-front img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 100%;
+  height: 100%;
+}
+
+#speakers .head .card .card-front .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  border-radius: 0 0 0 5px;
+}
+
+#speakers .head .card .card-front .badge img {
+  width: 100%;
+  height: 100%;
+}
+
+#speakers .members .card .card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #101010;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: 1s;
+  color: #fff;
+  overflow: hidden;
+}
+
+#speakers .members .card:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+#speakers .card-back .details {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+#speakers .card-back .details .name {
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 0;
+}
+
+#speakers .card-back .details .seperator {
+  margin: 5px 0;
+  padding: 0;
+  height: 2px;
+  width: 40px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+#speakers .card-back .details .links {
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+
+#speakers .card-back .details .links a {
+  display: inline-block;
+  background-color: #262626;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  margin: 5px;
+  transition: .2s;
+}
+
+#speakers .card-back .details .links a .fa {
+  line-height: 36px;
+  font-size: 18px;
+}
+ 
+#speakers .card-back .details .links a:hover {
+  background-color: #5bd4e4;
+}
+
+#speakers .members-control {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  box-shadow: 0 -3px 5px rgba(0,0,0,.3);
+}
+
+#speakers .members-control.remove {
+  display: none;
+}
+
+#speakers .members-control .btn {
+  width: 100px;
+  background-color: #101010;
+  margin: 20px;
+  border-radius: 0;
+  transition: .5s;
+}
+
+#speakers .members-control .btn:hover {
+  background-color: #5bd4e4;
+}
+
+#speakers .members-control .btn p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/*---------------------------------------
+   Contact section
+-----------------------------------------*/
+#contact {
+    background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url('../images/contact/contact.jpeg') fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+#contact .contact_des {
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+#contact .contact_des h3 {
+  padding-bottom: 0;
+  margin-top: 40px;
+}
+
+#contact .contact_detail {
+  background: #ffffff;
+  padding: 5rem 5rem 12rem 5rem;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999;
+}
+
+#contact input {
+  height: 45px;
+}
+
+#contact input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #5bd4e4;
+}
+
+
+
+/*---------------------------------------
+   Social icon
+-----------------------------------------*/
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    color: #666;
+    border-radius: 100px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-icon li a:hover {
+    background: #5bd4e4;
+    color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+   Responsive styles
+-----------------------------------------*/
+@media (max-width: 980px) {
+
+  p {font-size: 13px;}
+
+  .custom-navbar {
+    padding: 5px;
+  }
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .custom-navbar .nav {
+    margin-top: 15px;
+  }
+
+  .custom-navbar .nav li a {
+    font-size: 11px;
+	line-height: 20px;
+  }
+
+  #intro { height: 100vh; }
+
+  #speakers .members {
+    height: 350px;
+  }
+
+  #speakers .members .card {
+    width: 160px;
+    height: 205px;
+  }
+
+  #speakers .head .card .card-front .badge {
+    width: 30px;
+    height: 30px;
+  }
+
+  #speakers .card-back .details {
+    top: 30%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 30px;
+  }
+
+  #video iframe {
+    margin-top: 42px;
+  }
+
+  #contact .contact_detail {
+  background: #ffffff;
+  padding: 10rem 3rem 10rem 5rem;
+}
+
+}
+
+@media (max-width: 768px) {
+
+  .custom-navbar .navbar-toggler {
+    border: none;
+    background-color: #101010;
+    padding-top: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    transition: .2s;
+  }
+
+  .custom-navbar .navbar-toggler.active {
+    background-color: transparent;
+  }
+
+  .custom-navbar .navbar-toggler.active .bar-1 {
+    transform-origin: left;
+    transform: rotate(43deg);
+  }
+
+  .custom-navbar .navbar-toggler.active .bar-2 {
+    	opacity : 0;
+  }
+
+  .custom-navbar .navbar-toggler.active .bar-3 {
+    transform-origin: left;
+    transform: rotate(-43deg);
+  }
+  .top-nav-collapse .navbar-toggler {
+    top: 5px;
+  }
+
+  .custom-navbar .navbar-toggler-back{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    z-index: 80;
+    border-radius: 50%;
+    background-image: radial-gradient(#101010, #252525, #414141, #5c5c5c, #959595);
+    transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  .custom-navbar .navbar-toggler-back.active {
+    transform: scale(80);
+  }
+
+ .custom-navbar .navbar-toggler .icon-bar {
+    background-color: #fff;
+    border-color: transparent;
+    width: 100%;
+    height: 3px;
+    display: block;
+    margin: 7px 0; 
+    transition: all .2s;
+  }
+
+  .custom-navbar .navbar-body {
+    background-color: transparent;
+    position: fixed;
+    top: 50%;
+    left: -50%;
+    transform: translate(-50%,-50%);
+    z-index: 90;
+    transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .custom-navbar .navbar-body.active {
+    left: 50%;
+  }
+
+  .custom-navbar .nav {
+    margin-top: 0;
+    transform: translate(0,0);
+    margin-right: 0;
+}
+
+  .custom-navbar .navbar-brand {
+    /* line-height: 20px; */
+    font-size: 1.5rem;
+    padding: 15px;
+    background: transparent;
+  }
+
+  .custom-navbar .navbar-nav li {
+    text-align: center;
+  }
+
+  .custom-navbar .navbar-nav li a {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .custom-navbar.top-nav-collapse .navbar-brand {
+    /* font-size: 2rem; */
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  #overview img,
+  #detail .col-md-4
+   {
+    padding-top: 32px;
+  }
+
+  .nav-tabs > li > a {
+    font-size: 13px;
+  }
+
+  .custom-navbar .navbar-brand {
+    transform: translate(0px,0px);
+  }
+
+  #speakers .members {
+    height: 260px;
+  }
+
+  #speakers .members .card {
+    width: 120px;
+    height: 155px;
+    margin: 5px;
+  }
+
+  #speakers .head .card .card-front .badge {
+    width: 25px;
+    height: 25px;
+  }
+
+  #speakers .card-back .details {
+    top: 15%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 12px;
+    margin: 4px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 30px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 12px;
+  }
+
+  #contact .contact_detail {
+    margin-top: 82px;
+  }
+
+  .go-top:hover {
+    background-color: #222;
+  }
+}
+
+@media (max-width: 760px) {
+
+  #intro {
+    height: 100vh;
+  }
+
+}
+
+@media (max-width: 450px) {
+  #intro .container .row .img-box {
+    height: 100px;
+    width: 80px;
+  }
+  #intro .container .row .fst {
+    letter-spacing: 5px;
+    font-size: 30px;
+  }
+  #intro .container .row .thr {
+    letter-spacing: 15px;
+    font-size: 30px;
+  }
+  #speakers .members {
+    height: 200px;
+  }
+  #speakers .members .card {
+    width: 180px;
+    height: 230px;
+    margin: 5px;
+  }
+  #speakers .head .card .card-front .badge {
+    width: 40px;
+    height: 40px;
+  }
+  #speakers .card-back .details {
+    top: 30%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 410px) {
+  #speakers .members .card {
+    width: 140px;
+    height: 180px;
+    margin: 5px;
+  }
+  #speakers .head .card .card-front .badge {
+    width: 30px;
+    height: 30px;
+  }
+  #speakers .card-back .details {
+    top: 20%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #speakers .members {
+    height: 234px;
+  }
+  #speakers .members .card {
+    width: 43vw;
+    height: 55vw;
+    margin: 5px;
+  }
+  #speakers .head .card .card-front .badge {
+    width: 35px;
+    height: 35px;
+  }
+  #speakers .card-back .details {
+    top: 20%;
+    padding: 8px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 6vh;
+  }
+}

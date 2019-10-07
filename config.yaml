@@ -1,7 +1,7 @@
 baseURL: "/"
 languageCode: en-us
 title: bdverse
-theme: hugo-fresh
+theme: "hugo-fresh"
 relativeurls: true
 publishDir: "docs"
 
@@ -40,7 +40,7 @@ params:
   - title: About
     sublinks:
     - title: The Team
-      url: /
+    - url: \Team
     - title: Fundings
       url: /
   section1:
@@ -118,3 +118,5 @@ params:
         title: ""
         links:
         - text: Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
