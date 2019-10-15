@@ -40,7 +40,7 @@ params:
   - title: About
     sublinks:
     - title: The Team
-    - url: \Team
+      url: /Team
     - title: Fundings
       url: /
   section1:
