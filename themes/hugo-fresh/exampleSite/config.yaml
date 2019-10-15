@@ -10,6 +10,10 @@ disableKinds:
 
 
 params:
+ # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
    image: logos/fresh.svg
@@ -113,6 +117,8 @@ params:
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/lucperkins/github-fresh
