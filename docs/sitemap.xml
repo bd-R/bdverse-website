@@ -3,11 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/bdchecks/</loc>
+  </url>
+  
+  <url>
+    <loc>/bdclean/</loc>
+  </url>
+  
+  <url>
+    <loc>/bddwc/</loc>
+  </url>
+  
+  <url>
+    <loc>/bdtools/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
   </url>
   
   <url>
+    <loc>/bdvis/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/fundings/</loc>
+  </url>
+  
+  <url>
+    <loc>/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>/standing/</loc>
   </url>
   
   <url>
