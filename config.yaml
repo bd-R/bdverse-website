@@ -18,15 +18,15 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: bddwc
-    url: /
+    url: /bddwc
   - title: bdchecks
-    url: /
+    url: /bdchecks
   - title: bdclean
-    url: /
+    url: /bdclean
   - title: bdvis
-    url: /
+    url: /bdvis
   - title: bdtools
-    url: /
+    url: /bdtools
   - title: Resources
     sublinks:
     - title: User Guide
@@ -34,7 +34,7 @@ params:
     - title: Developer Guide
       url: https://bd-r.github.io/bdverse-developer-guide/
     - title: Publications
-      url: /
+      url: /publications
     - title: GitHub
       url: https://github.com/bd-R
   - title: About
@@ -42,7 +42,7 @@ params:
     - title: The Team
       url: /Team
     - title: Fundings
-      url: /
+      url: /fundings
   section1:
     title: The bdverse 
     subtitle: A family of R packages for biodiversity data.
@@ -50,17 +50,17 @@ params:
     - title: Standardize
       icon: bddwc
       text: Standardize Darwin Core (DwC) Field Names
-      url: /
+      url: /bddwc
       buttonText: bddwc
     - title: Check
       icon: bdchecks
       text: Create, Filter, Perform, and Manage Data Quality Checks
-      url: /
+      url: /bdchecks
       buttonText: bdchecks
     - title: Clean
       icon: bdclean
       text: User-friendly Workflows for Biodiversity Data Cleaning
-      url: /
+      url: /bdclean
       buttonText: bdclean 
     - title: Explore
       icon: bdvis
@@ -87,6 +87,7 @@ params:
     - title: Publications
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
+      url: /publications
     - title: The Team
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
