@@ -3,39 +3,111 @@
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
 <section class="section is-medium">
-  <div class="container">
+  <div class="container" id="section2">
     <div class="column is-centered-tablet-portrait">
         <h1 class="title section-title">{{ $title }}</h1>
         <h3 class="subtitle is-muted">{{ $subtitle }}</h3>
         <div class="divider"></div>
-      </div>
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait mt-50">
-        <img src="images/spatial.gif"/>
-        <img src="images/temporal.gif"/>
-        <img src="images/taxonomic.gif"/>
-        <img src="images/taxonomic.gif"/>
-      </div>
-      <div class="column is-6">
-        {{- range $features }}
-        <article class="media icon-box">
+    </div>
+    
+     <div class="columns">
+        <div class="media icon-box column is-half">
           <figure class="media-left">
             <p class="image">
-              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}"/>
+              <img src="images/user_guide.png"/>
             </p>
           </figure>
-          <div class="media-content mt-50">
+          <div class="media-content">
             <div class="content">
               <p>
-                <span class="icon-box-title"><a href="#">{{ .title }}</a></span>
-
-                <span class="icon-box-text">{{ .text | markdownify }}</span>
+                <span class="icon-box-title"><a href="#">User Guide</a></span>
+                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</span>
               </p>
             </div>
           </div>
-        </article>
-        {{- end }}
-      </div>
-    </div>
+        </div>
+        <div class="media icon-box column is-half">
+          <figure class="media-left">
+            <p class="image">
+              <img src="images/dev_guide.png"/>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <span class="icon-box-title"><a href="#">Developer Guide </a></span>
+                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+       </div>
+       
+    
+     <div class="columns">
+        <div class="media icon-box column is-half">
+          <figure class="media-left">
+            <p class="image">
+              <img src="images/spin.png"/>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <span class="icon-box-title"><a href="#">Take it for a spin & give us feedback</a></span>
+                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="media icon-box column is-half">
+          <figure class="media-left">
+            <p class="image">
+              <img src="images/R-shoulders.png"/>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <span class="icon-box-title"><a href="#">Standing on the shoulders of giants</a></span>
+                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="columns">
+        <div class="media icon-box column is-half">
+          <figure class="media-left">
+            <p class="image">
+              <img src="images/Publications.png"/>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <span class="icon-box-title"><a href="#">Publications</a></span>
+                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="media icon-box column is-half">
+          <figure class="media-left">
+            <p class="image">
+              <img src="images/user_guide.png"/>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <span class="icon-box-title"><a href="#">The Team</a></span>
+                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+       </div>
+       
   </div>
 </section>
