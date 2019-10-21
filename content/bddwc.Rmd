@@ -56,6 +56,20 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 
 # Resources
 
+<table>
+    <tr>
+    <td>
+      ![https://bd-r.github.io/bdverse-user-guide/bddwc.html](bddwc_files/figure-html/bddwc_user_guide.svg "bddwc user guide")
+    </td>
+    <td>
+      ![https://bd-r.github.io/bdverse-user-guide/bddwc.html](bddwc_files/figure-html/bddwc_dev_guide.svg "bddwc development guide")
+    </td>
+    <td>
+      ![https://bd-r.github.io/bdverse-user-guide/bddwc.html](bddwc_files/figure-html/bddwc_code.svg "bddwc GitHub repo")
+    </td>
+  </tr>
+</table>
+
 ## bddwc Shiny app
 Here I will create four icons linked to:
 
