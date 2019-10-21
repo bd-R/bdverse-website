@@ -5,7 +5,7 @@
 {{- $fontFace     := replace .Site.Params.font.name " " "+" }}
 {{- $fontSizes    := delimit .Site.Params.font.sizes "," }}
 {{- $fontUrl      := printf "https://fonts.googleapis.com/css?family=%s:%s" $fontFace $fontSizes }}
-<link rel="icon" type="image/png" href="images/icon.png" />
+<link rel="icon" type="image/png" href="/images/icon.png" />
 <link href="{{ $fontUrl }}" rel="stylesheet">
 {{- if $inServerMode }}
 {{- $css := resources.Get $sass | toCSS $cssOpts }}
@@ -16,4 +16,4 @@
 {{- end }}
 <link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | absURL }}">
 
-<link rel="stylesheet" type="text/css" href="override.css">
+<link rel="stylesheet" type="text/css" href="/override.css">
