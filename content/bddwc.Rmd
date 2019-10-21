@@ -15,7 +15,7 @@ include_footer: true
   <tr>
     <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("bddwc_hexsticker@2x.png")
+    knitr::include_graphics("bddwc_files/figure-html/bddwc_hexsticker@2x.png")
     ```
     </td>
     <td>
@@ -33,7 +33,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
   </td>
       <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("Arc_bddwc_overview.svg")
+    knitr::include_graphics("bddwc_files/figure-html/Arc_bddwc_overview.svg")
     ```
       </td>
     </tr>
@@ -44,7 +44,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
   <tr>
     <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("bddwc_shiny.gif")
+    knitr::include_graphics("bddwc_files/figure-html/bddwc_shiny.gif")
     ```
     </td>
     <td>
