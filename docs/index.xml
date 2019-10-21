@@ -37,7 +37,7 @@ When you click the Knit button a document will be generated that includes both c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bddwc/</guid>
-      <description>bdDwC is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdDwC enables you to carefully standardize all field names in your dataset – which allows the bdverse to handle data from various biodiversity data aggregators seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.</description>
+      <description>table, th, td {text-align: left;padding: 10px;vertical-align: middle;}bdDwC is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdDwC enables you to carefully standardize all field names in your dataset – which allows the bdverse to handle data from various biodiversity data aggregators seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.</description>
     </item>
     
     <item>

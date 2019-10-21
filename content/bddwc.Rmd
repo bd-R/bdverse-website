@@ -4,6 +4,13 @@ output: html_document
 include_footer: true
 ---
 
+<style>
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+  }
+</style>
 
 <table style="width:100%">
   <col width="25%">
@@ -54,7 +61,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 </table>
 
 
-# Resources
+## Resources
 
 <table style="width:30%">
     <tr>
@@ -69,12 +76,3 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     </td>
   </tr>
 </table>
-
-
-<style>
-  table, th, td {
-    text-align: left;
-    padding: 10px;
-    vertical-align: middle;
-  }
-</style>
