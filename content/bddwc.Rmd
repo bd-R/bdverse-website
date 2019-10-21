@@ -4,14 +4,8 @@ output: html_document
 include_footer: true
 ---
 
-<style>
-  table, th, td {
-    text-align: left;
-    padding: 10px;
-  }
-</style>
 
-<table>
+<table style="width:80%">
   <col width="25%">
   <tr>
     <td>
@@ -77,3 +71,11 @@ Here I will create four icons linked to:
 * code
 * dev guide
 * feedback
+
+<style>
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+  }
+</style>
