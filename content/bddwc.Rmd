@@ -40,7 +40,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 </table>
 
 <table>
-  <col width="60%">
+  <col width="55%">
   <tr>
     <td>
     ```{r, echo = FALSE, out.width= "100%"}
@@ -53,7 +53,6 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 * Feature 2
 * Feature 3
 * Feature 4
-
     </td>
   </tr>
 </table>
