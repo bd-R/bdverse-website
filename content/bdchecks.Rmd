@@ -61,7 +61,7 @@ The development of bdchecks was inspired by the <a href="http://kurator.acis.ufl
 </table>
 
 
-## Resources
+# Resources
 
 <table style="width:45%">
     <tr>
