@@ -3,8 +3,9 @@ title: "bddwc"
 output: html_document
 include_footer: true
 ---
+
 <style>
-  th, td {
+  table, th, td {
     text-align: left;
     padding: 10px;
   }
