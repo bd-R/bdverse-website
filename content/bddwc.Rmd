@@ -4,9 +4,14 @@ output: html_document
 include_footer: true
 ---
 
+<style>
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+  }
+</style>
 
-
-<table style= "text-align: left; padding: 10px;">
+<table>
   <col width="25%">
   <tr>
     <td>
@@ -20,7 +25,7 @@ include_footer: true
   </tr>
 </table>
 
-<table style= "text-align: left; padding: 10px;">
+<table>
   <col width="55%">
   <tr>
    <td>
@@ -35,7 +40,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     </tr>
 </table>
 
-<table style= "text-align: left; padding: 10px;">
+<table>
   <col width="55%">
   <tr>
     <td>
@@ -44,7 +49,8 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     ```
     </td>
     <td>
-## Shiny app key features:
+**Shiny app key features:**
+
 * Feature 1
 * Feature 2
 * Feature 3
