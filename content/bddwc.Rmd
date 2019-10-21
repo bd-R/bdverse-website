@@ -61,9 +61,9 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 </table>
 
 
-## Resources
+<h2> Resources </h2>
 
-<table style="width:35%">
+<table style="width:45%">
     <tr>
     <td>
       [![](bddwc_files/figure-html/bddwc_user_guide.svg "bddwc user guide")](https://bd-r.github.io/bdverse-user-guide/bddwc.html)
