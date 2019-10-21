@@ -63,7 +63,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 
 ## Resources
 
-<table style="width:30%">
+<table style="width:35%">
     <tr>
     <td>
       [![](bddwc_files/figure-html/bddwc_user_guide.svg "bddwc user guide")](https://bd-r.github.io/bdverse-user-guide/bddwc.html)
@@ -72,7 +72,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
       [![](bddwc_files/figure-html/bddwc_dev_guide.svg "bddwc development guide")](https://bd-r.github.io/bdverse-dev-guide/architecture.html#bddwc)
     </td>
     <td>
-      [![](bddwc_files/figure-html/bddwc_code.svg "bddwc GitHub repo")](https://bd-r.github.io/bdverse-user-guide/bddwc.html)
+      [![](bddwc_files/figure-html/bddwc_code.svg "bddwc GitHub repo")](https://github.com/bd-R/bdDwC)
     </td>
   </tr>
 </table>
