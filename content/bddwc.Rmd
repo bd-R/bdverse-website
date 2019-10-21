@@ -4,12 +4,70 @@ output: html_document
 include_footer: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+<table style= "text-align: left; padding: 10px;">
+  <col width="25%">
+  <tr>
+    <td>
+    ```{r, echo = FALSE, out.width= "100%"}
+    knitr::include_graphics("bddwc_files/figure-html/bddwc_hexsticker@2x.png")
+    ```
+    </td>
+    <td>
+`bdDwC` is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdDwC enables you to carefully standardize all field names in your dataset – which allows the `bdverse` to handle data from **various biodiversity data aggregators** seamlessly, and lets you enjoy all of its features, regardless of aggregators' variation in field names.
+    </td>
+  </tr>
+</table>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+<table style= "text-align: left; padding: 10px;">
+  <col width="55%">
+  <tr>
+   <td>
+The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.edu/kurator-web/" target="_blank">Kurator project</a> <a href="https://github.com/kurator-org/kurator-validation/wiki/CSV-File-Darwinizer" target="_blank">'Darwinizer tool'</a>. `bdDwC` utilizes Darwin Cloud dictionary <a href="https://doi.org/10.3897/tdwgproceedings.1.20486" target="_blank">(Wieczorek et al. 2017)</a>, which is a lookup table that accumulates different variations in DwC field names, maintained by the Kurator team. We developt a feature that allows adding your own dictionary either via the `bddwc Shiny app` or by creating a simple CSV file with two columns, one for the Field Names and one for the Standard Names.
+
+  </td>
+      <td>
+    ```{r, echo = FALSE, out.width= "100%"}
+    knitr::include_graphics("bddwc_files/figure-html/Arc_bddwc_overview.svg")
+    ```
+      </td>
+    </tr>
+</table>
+
+<table style= "text-align: left; padding: 10px;">
+  <col width="55%">
+  <tr>
+    <td>
+    ```{r, echo = FALSE, out.width= "100%"}
+    knitr::include_graphics("bddwc_files/figure-html/bddwc_shiny.gif")
+    ```
+    </td>
+    <td>
+## Shiny app key features:
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+    </td>
+  </tr>
+</table>
+
+
+# Resources
+
+## bddwc Shiny app
+Here I will create four icons linked to:
+
+* user guide
+* code
+* dev guide
+* feedback
+
+## bddwc (R functionality)
+Here I will create four icons linked to:
+
+* user guide
+* code
+* dev guide
+* feedback

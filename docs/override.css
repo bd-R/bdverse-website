@@ -60,7 +60,43 @@ footer .column {
     flex-basis: 1;
 }
 
-.navbar.is-fresh .navbar-brand img {
-    height: 40px;
-    width: 40px;
+
+
+#section2 img{
+    height: 100px;
+    width: 100px;
 }
+
+footer.footer-dark {
+    background: lightgrey;
+}
+
+footer.footer-dark .footer-column ul.link-list a{
+    color: black;
+    font-size: 12px;
+}
+
+footer.footer-dark .footer-column ul.link-list {
+    
+    text-align: center;
+}
+
+
+#section2 .media+.media{
+    padding-top: 0px;
+}
+
+/*
+#section2 .image {
+    margin-top: 3%;
+    position: absolute;
+}
+
+#section2 .media.icon-box .media-content .content p .icon-box-text{
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+#section2 .media.icon-box .media-content .content p .icon-box-title{
+    margin-bottom: 5%;
+} */
