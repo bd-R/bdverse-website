@@ -4,14 +4,9 @@ output: html_document
 include_footer: true
 ---
 
-<style>
-  table, th, td {
-    text-align: left;
-    padding: 10px;
-  }
-</style>
 
-<table>
+
+<table style= "text-align: left; padding: 10px;">
   <col width="25%">
   <tr>
     <td>
@@ -25,7 +20,7 @@ include_footer: true
   </tr>
 </table>
 
-<table>
+<table style= "text-align: left; padding: 10px;">
   <col width="55%">
   <tr>
    <td>
@@ -40,7 +35,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     </tr>
 </table>
 
-<table>
+<table style= "text-align: left; padding: 10px;">
   <col width="55%">
   <tr>
     <td>
