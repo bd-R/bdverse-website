@@ -47,16 +47,9 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     knitr::include_graphics("bddwc_files/figure-html/bddwc_shiny.gif")
     ```
     </td>
-    <td>
-## Shiny app key features:
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-    </td>
   </tr>
 </table>
+
 ## Resources
 
 ### bddwc Shiny app
