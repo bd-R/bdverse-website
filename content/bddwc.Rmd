@@ -5,7 +5,7 @@ include_footer: true
 ---
 
 
-<table style="width:80%">
+<table style="width:100%">
   <col width="25%">
   <tr>
     <td>
@@ -56,7 +56,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 
 # Resources
 
-<table>
+<table style="width:50%">
     <tr>
     <td>
       ![https://bd-r.github.io/bdverse-user-guide/bddwc.html](bddwc_files/figure-html/bddwc_user_guide.svg "bddwc user guide")
@@ -69,22 +69,6 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     </td>
   </tr>
 </table>
-
-## bddwc Shiny app
-Here I will create four icons linked to:
-
-* user guide
-* code
-* dev guide
-* feedback
-
-## bddwc (R functionality)
-Here I will create four icons linked to:
-
-* user guide
-* code
-* dev guide
-* feedback
 
 <style>
   table, th, td {
