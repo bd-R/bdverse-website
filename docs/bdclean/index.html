@@ -185,24 +185,67 @@
     
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="../bdclean_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<style>
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+  }
+</style>
+<table style="width:100%">
+<col width="25%">
+<tr>
+<td>
+<img src="../bdclean_files/figure-html/bdclean_hexsticker@2x.png" width="100%" />
+</td>
+<td>
+<code>bdclean</code> is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdclean enables you to carefully standardize all field names in your dataset – which allows the <code>bdverse</code> to handle data from <strong>various biodiversity data aggregators</strong> seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.
+</td>
+</tr>
+</table>
+<table>
+<col width="55%">
+<tr>
+<td>
+<p>The development of bdclean was inspired by the <a href="http://kurator.acis.ufl.edu/kurator-web/" target="_blank">Kurator project</a> <a href="https://github.com/kurator-org/kurator-validation/wiki/CSV-File-Darwinizer" target="_blank">‘Darwinizer tool’</a>. <code>bdclean</code> utilizes Darwin Cloud dictionary <a href="https://doi.org/10.3897/tdwgproceedings.1.20486" target="_blank">(Wieczorek et al. 2017)</a>, which is a lookup table that accumulates different variations in DwC field names, maintained by the Kurator team. We developt a feature that allows adding your own dictionary either via the <code>bdclean Shiny app</code> or by creating a simple CSV file with two columns, one for the Field Names and one for the Standard Names.</p>
+</td>
+<td>
+<img src="../bdclean_files/figure-html/Arc_bdclean_app.svg" width="100%" />
+</td>
+</tr>
+</table>
+<table>
+<col width="55%">
+<tr>
+<td>
+<img src="../bdclean_files/figure-html/bdclean_shiny.gif" width="100%" />
+</td>
+<td>
+<p><strong>Shiny app key features:</strong></p>
+<ul>
+<li>Feature 1</li>
+<li>Feature 2</li>
+<li>Feature 3</li>
+<li>Feature 4
+</td>
+</tr>
+</table></li>
+</ul>
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<table style="width:45%">
+<tr>
+<td>
+<a href="https://bd-r.github.io/bdverse-user-guide/bdclean.html"><img src="../bdclean_files/figure-html/bdclean_user_guide.svg" title="bdclean user guide" /></a>
+</td>
+<td>
+<a href="https://bd-r.github.io/bdverse-dev-guide/architecture.html#bdclean"><img src="../bdclean_files/figure-html/bdclean_dev_guide.svg" title="bdclean development guide" /></a>
+</td>
+<td>
+<a href="https://github.com/bd-R/bdclean"><img src="../bdclean_files/figure-html/bdclean_code.svg" title="bdclean GitHub repo" /></a>
+</td>
+</tr>
+</table>
 </div>
 
   </div>
