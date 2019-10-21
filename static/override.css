@@ -94,6 +94,7 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    color: black !important;
 }
 h2 {
     display: block;
