@@ -4,9 +4,15 @@ output: html_document
 include_footer: true
 ---
 
+<style>
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+  }
+</style>
 
-
-<table style= "text-align: left; padding: 10px;">
+<table style="width:100%">
   <col width="25%">
   <tr>
     <td>
@@ -20,7 +26,7 @@ include_footer: true
   </tr>
 </table>
 
-<table style= "text-align: left; padding: 10px;">
+<table>
   <col width="55%">
   <tr>
    <td>
@@ -35,7 +41,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     </tr>
 </table>
 
-<table style= "text-align: left; padding: 10px;">
+<table>
   <col width="55%">
   <tr>
     <td>
@@ -44,7 +50,8 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     ```
     </td>
     <td>
-## Shiny app key features:
+**Shiny app key features:**
+
 * Feature 1
 * Feature 2
 * Feature 3
@@ -54,20 +61,18 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 </table>
 
 
-# Resources
+<h2> Resources </h2>
 
-## bddwc Shiny app
-Here I will create four icons linked to:
-
-* user guide
-* code
-* dev guide
-* feedback
-
-## bddwc (R functionality)
-Here I will create four icons linked to:
-
-* user guide
-* code
-* dev guide
-* feedback
+<table style="width:45%">
+    <tr>
+    <td>
+      [![](bddwc_files/figure-html/bddwc_user_guide.svg "bddwc user guide")](https://bd-r.github.io/bdverse-user-guide/bddwc.html)
+    </td>
+    <td>
+      [![](bddwc_files/figure-html/bddwc_dev_guide.svg "bddwc development guide")](https://bd-r.github.io/bdverse-dev-guide/architecture.html#bddwc)
+    </td>
+    <td>
+      [![](bddwc_files/figure-html/bddwc_code.svg "bddwc GitHub repo")](https://github.com/bd-R/bdDwC)
+    </td>
+  </tr>
+</table>
