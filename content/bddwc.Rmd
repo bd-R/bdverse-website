@@ -54,9 +54,9 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 </table>
 
 
-## Resources
+# Resources
 
-### bddwc Shiny app
+## bddwc Shiny app
 Here I will create four icons linked to:
 
 * user guide
@@ -64,7 +64,7 @@ Here I will create four icons linked to:
 * dev guide
 * feedback
 
-### bddwc (R functionality)
+## bddwc (R functionality)
 Here I will create four icons linked to:
 
 * user guide
