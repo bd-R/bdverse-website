@@ -61,7 +61,7 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
 </table>
 
 
-<h2> Resources </h2>
+## Resources
 
 <table style="width:45%">
     <tr>

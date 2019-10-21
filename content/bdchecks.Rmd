@@ -5,47 +5,74 @@ include_footer: true
 ---
 
 <style>
-  th {
+  table, th, td {
     text-align: left;
+    padding: 10px;
+    vertical-align: middle;
   }
 </style>
 
-<table>
+<table style="width:100%">
   <col width="25%">
   <tr>
     <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("img/hexstickers/bddwc_hexsticker@2x.png")
+    knitr::include_graphics("bdchecks_files/figure-html/bdchecks_hexsticker@2x.png")
     ```
     </td>
     <td>
-* kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd
-      
-* dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
-      
-* dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
+`bdchecks` is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdchecks enables you to carefully standardize all field names in your dataset – which allows the `bdverse` to handle data from **various biodiversity data aggregators** seamlessly, and lets you enjoy all of its features, regardless of aggregators' variation in field names.
     </td>
   </tr>
 </table>
 
 <table>
-  <col width="50%">
+  <col width="55%">
   <tr>
    <td>
-kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
+The development of bdchecks was inspired by the <a href="http://kurator.acis.ufl.edu/kurator-web/" target="_blank">Kurator project</a> <a href="https://github.com/kurator-org/kurator-validation/wiki/CSV-File-Darwinizer" target="_blank">'Darwinizer tool'</a>. `bdchecks` utilizes Darwin Cloud dictionary <a href="https://doi.org/10.3897/tdwgproceedings.1.20486" target="_blank">(Wieczorek et al. 2017)</a>, which is a lookup table that accumulates different variations in DwC field names, maintained by the Kurator team. We developt a feature that allows adding your own dictionary either via the `bdchecks Shiny app` or by creating a simple CSV file with two columns, one for the Field Names and one for the Standard Names.
+
   </td>
       <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("Arc_bddwc_overview.svg")
+    knitr::include_graphics("bdchecks_files/figure-html/Arc_bdchecks_overview.svg")
     ```
       </td>
     </tr>
 </table>
 
+<table>
+  <col width="55%">
+  <tr>
+    <td>
+    ```{r, echo = FALSE, out.width= "100%"}
+    knitr::include_graphics("bdchecks_files/figure-html/bdchecks_shiny.gif")
+    ```
+    </td>
+    <td>
+**Shiny app key features:**
+
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+    </td>
+  </tr>
+</table>
+
+
 ## Resources
 
-### bddwc Shiny app
-
-### bddwc (R functionality)
-
-
+<table style="width:45%">
+    <tr>
+    <td>
+      [![](bdchecks_files/figure-html/bdchecks_user_guide.svg "bdchecks user guide")](https://bd-r.github.io/bdverse-user-guide/bdchecks.html)
+    </td>
+    <td>
+      [![](bdchecks_files/figure-html/bdchecks_dev_guide.svg "bdchecks development guide")](https://bd-r.github.io/bdverse-dev-guide/architecture.html#bdchecks)
+    </td>
+    <td>
+      [![](bdchecks_files/figure-html/bdchecks_code.svg "bdchecks GitHub repo")](https://github.com/bd-R/bdchecks)
+    </td>
+  </tr>
+</table>

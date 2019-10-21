@@ -186,44 +186,66 @@
 
 
 <style>
-  th {
+  table, th, td {
     text-align: left;
+    padding: 10px;
+    vertical-align: middle;
   }
 </style>
-<table>
+<table style="width:100%">
 <col width="25%">
 <tr>
 <td>
-<img src="img/hexstickers/bddwc_hexsticker@2x.png" width="100%" />
+<img src="../bdchecks_files/figure-html/bdchecks_hexsticker@2x.png" width="100%" />
 </td>
 <td>
+<code>bdchecks</code> is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdchecks enables you to carefully standardize all field names in your dataset – which allows the <code>bdverse</code> to handle data from <strong>various biodiversity data aggregators</strong> seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.
+</td>
+</tr>
+</table>
+<table>
+<col width="55%">
+<tr>
+<td>
+<p>The development of bdchecks was inspired by the <a href="http://kurator.acis.ufl.edu/kurator-web/" target="_blank">Kurator project</a> <a href="https://github.com/kurator-org/kurator-validation/wiki/CSV-File-Darwinizer" target="_blank">‘Darwinizer tool’</a>. <code>bdchecks</code> utilizes Darwin Cloud dictionary <a href="https://doi.org/10.3897/tdwgproceedings.1.20486" target="_blank">(Wieczorek et al. 2017)</a>, which is a lookup table that accumulates different variations in DwC field names, maintained by the Kurator team. We developt a feature that allows adding your own dictionary either via the <code>bdchecks Shiny app</code> or by creating a simple CSV file with two columns, one for the Field Names and one for the Standard Names.</p>
+</td>
+<td>
+<img src="../bdchecks_files/figure-html/Arc_bdchecks_overview.svg" width="100%" />
+</td>
+</tr>
+</table>
+<table>
+<col width="55%">
+<tr>
+<td>
+<img src="../bdchecks_files/figure-html/bdchecks_shiny.gif" width="100%" />
+</td>
+<td>
+<p><strong>Shiny app key features:</strong></p>
 <ul>
-<li><p>kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd</p></li>
-<li><p>dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd</p></li>
-<li>dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
+<li>Feature 1</li>
+<li>Feature 2</li>
+<li>Feature 3</li>
+<li>Feature 4
 </td>
 </tr>
 </table></li>
 </ul>
-<table>
-<col width="50%">
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<table style="width:45%">
 <tr>
 <td>
-kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
+<a href="https://bd-r.github.io/bdverse-user-guide/bdchecks.html"><img src="../bdchecks_files/figure-html/bdchecks_user_guide.svg" title="bdchecks user guide" /></a>
 </td>
 <td>
-<img src="Arc_bddwc_overview.svg" width="100%" />
+<a href="https://bd-r.github.io/bdverse-dev-guide/architecture.html#bdchecks"><img src="../bdchecks_files/figure-html/bdchecks_dev_guide.svg" title="bdchecks development guide" /></a>
+</td>
+<td>
+<a href="https://github.com/bd-R/bdchecks"><img src="../bdchecks_files/figure-html/bdchecks_code.svg" title="bdchecks GitHub repo" /></a>
 </td>
 </tr>
 </table>
-<div id="resources" class="section level2">
-<h2>Resources</h2>
-<div id="bddwc-shiny-app" class="section level3">
-<h3>bddwc Shiny app</h3>
-</div>
-<div id="bddwc-r-functionality" class="section level3">
-<h3>bddwc (R functionality)</h3>
-</div>
 </div>
 
   </div>
