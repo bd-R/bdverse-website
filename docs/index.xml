@@ -18,7 +18,8 @@
       <guid>/bdchecks/</guid>
       <description>table, th, td {text-align: left;padding: 10px;vertical-align: middle;}bdchecks is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.
 bdchecks offers various features for different types of R users:
-An interactive and user-friendly Shiny app for inexperienced R users.Full command line functionality for more experienced R users.</description>
+An interactive and user-friendly Shiny app for inexperienced R users.
+Full command line functionality for more experienced R users.</description>
     </item>
     
     <item>

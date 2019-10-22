@@ -29,6 +29,7 @@ In order for `bdclean` to truly be practical, several unique and challenging R c
 
 <table>
   <col width="50%">
+  <col width="50%">
   <tr>
       <td>
     ```{r, echo = FALSE, out.width= "100%"}

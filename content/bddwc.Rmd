@@ -50,6 +50,9 @@ The development of bdDwC was inspired by the <a href="http://kurator.acis.ufl.ed
     ```
     </td>
     <td>
+    \newline
+    \newline
+    \newline
     ```{r, echo = FALSE, out.width= "100%"}
     knitr::include_graphics("bddwc_files/figure-html/bddwc_shiny.gif")
     ```

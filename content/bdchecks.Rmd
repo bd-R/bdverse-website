@@ -26,7 +26,9 @@ include_footer: true
 `bdchecks` offers various features for different types of R users:
 
 * An interactive and user-friendly Shiny app for inexperienced R users.
+
 * Full command line functionality for more experienced R users.
+
 * Advanced R users can easily edit, add and manage their own collection of data checks, using one single YAML file and only two supporting R functions.
     </td>
   </tr>
