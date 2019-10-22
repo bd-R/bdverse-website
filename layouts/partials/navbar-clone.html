@@ -59,12 +59,18 @@
           </a>
 
           <div class="navbar-dropdown">
-            {{- range .sublinks }}
-            <a href="{{ .url }}" class="navbar-item">
-              {{ .title }}
-            </a>
-            {{- end }}
-          </div>
+              {{- range .sublinks }}
+              {{- if .blank }}
+              <a href="{{ .url }}" class="navbar-item" target="_blank">
+                {{ .title }}
+              </a>
+              {{- else }}
+              <a href="{{ .url }}" class="navbar-item">
+                {{ .title }}
+              </a>
+              {{- end }}
+              {{- end }}
+            </div>
         </div>
         {{- else if .button }}
         <a href="{{ .url }}" class="navbar-item">

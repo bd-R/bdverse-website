@@ -67,6 +67,11 @@ footer .column {
     width: 100px;
 }
 
+.team img{
+     height: 150px !important;
+    width: 150px !important;
+}
+
 footer.footer-dark {
     background: lightgrey;
 }
@@ -129,9 +134,6 @@ h6 {
     margin-right: 0;
     font-weight: bold;
 }
-.title {
-    color: black;
-}
 
 .packages .title{
     color: #f39200;
@@ -141,6 +143,24 @@ h6 {
 table td {
     vertical-align: middle;
 }
+
+.columns .title {
+    color: black;
+}
+
+.title .section-title{
+    color: orange;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+table {
+    font-size: 1.1rem;
+}
+
+
 /*
 #section2 .image {
     margin-top: 3%;
