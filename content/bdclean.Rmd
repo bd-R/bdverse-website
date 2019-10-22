@@ -21,13 +21,14 @@ include_footer: true
     ```
     </td>
     <td>
-`bdclean` is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdclean enables you to carefully standardize all field names in your dataset – which allows the `bdverse` to handle data from **various biodiversity data aggregators** seamlessly, and lets you enjoy all of its features, regardless of aggregators' variation in field names.
+`bdclean` is a user-friendly data cleaning [Shiny app](https://shiny.rstudio.com) for the inexperienced R user. It provides features to manage complete workflow for biodiversity data cleaning, including data upload; user input - in order to adjust cleaning procedures; data cleaning; and finally, generation of various reports and versions of the data (flagged, and cleaned).
+In order for `bdclean` to truly be practical, several unique and challenging R components were developed, such as **a questionnaire module** and **high-quality report mechanism**. Also, since `bdclean` was developed for the inexperienced R user, `bdclean` GUI is highly intuitive.
     </td>
   </tr>
 </table>
 
 <table>
-  <col width="65%">
+  <col width="50%">
   <tr>
       <td>
     ```{r, echo = FALSE, out.width= "100%"}
@@ -35,30 +36,9 @@ include_footer: true
     ```
      </td>
       <td>
-The development of bdclean was inspired by the <a href="http://kurator.acis.ufl.edu/kurator-web/" target="_blank">Kurator project</a> <a href="https://github.com/kurator-org/kurator-validation/wiki/CSV-File-Darwinizer" target="_blank">'Darwinizer tool'</a>. `bdclean` utilizes Darwin Cloud dictionary <a href="https://doi.org/10.3897/tdwgproceedings.1.20486" target="_blank">(Wieczorek et al. 2017)</a>, which is a lookup table that accumulates different variations in DwC field names, maintained by the Kurator team. We developt a feature that allows adding your own dictionary either via the `bdclean Shiny app` or by creating a simple CSV file with two columns, one for the Field Names and one for the Standard Names.
-    </td>
-  </tr>
-</table>
-
-
-
-
-
-<table>
-  <col width="55%">
-  <tr>
-    <td>
     ```{r, echo = FALSE, out.width= "100%"}
     knitr::include_graphics("bdclean_files/figure-html/bdclean_shiny.gif")
     ```
-    </td>
-    <td>
-**Shiny app key features:**
-
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
     </td>
   </tr>
 </table>

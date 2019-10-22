@@ -20,38 +20,44 @@ include_footer: true
 <img src="/bdchecks_files/figure-html/bdchecks_hexsticker@2x.png" width="100%" />
 </td>
 <td>
-<code>bdchecks</code> is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdchecks enables you to carefully standardize all field names in your dataset – which allows the <code>bdverse</code> to handle data from <strong>various biodiversity data aggregators</strong> seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.
+<p><code>bdchecks</code> is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.</p>
+<p><code>bdchecks</code> offers various features for different types of R users:</p>
+<ul>
+<li>An interactive and user-friendly Shiny app for inexperienced R users.</li>
+<li>Full command line functionality for more experienced R users.</li>
+<li>Advanced R users can easily edit, add and manage their own collection of data checks, using one single YAML file and only two supporting R functions.
 </td>
 </tr>
-</table>
+</table></li>
+</ul>
 <table>
-<col width="55%">
+<col width="50%">
 <tr>
 <td>
-<p>The development of bdchecks was inspired by the <a href="http://kurator.acis.ufl.edu/kurator-web/" target="_blank">Kurator project</a> <a href="https://github.com/kurator-org/kurator-validation/wiki/CSV-File-Darwinizer" target="_blank">‘Darwinizer tool’</a>. <code>bdchecks</code> utilizes Darwin Cloud dictionary <a href="https://doi.org/10.3897/tdwgproceedings.1.20486" target="_blank">(Wieczorek et al. 2017)</a>, which is a lookup table that accumulates different variations in DwC field names, maintained by the Kurator team. We developt a feature that allows adding your own dictionary either via the <code>bdchecks Shiny app</code> or by creating a simple CSV file with two columns, one for the Field Names and one for the Standard Names.</p>
+<ul>
+<li><p>Our first mission is to successfully implement all core suite of tests and assertions being developed by TDWG’s Biodiversity Data Quality ‘Task Group 2: Data Quality Tests and Assertions’. <code>bdchecks</code> core is designed to match the test structure, and we also developing and maintaining a synchronization system.</p></li>
+<li><p>Our second mission is developing a complete and easy app reproducibility, we’re on the right track, and we’ll have it soon.</p></li>
+<li><p>We’ve implemented an automated testings scheme that <strong>continually</strong> checks each test with numerous scenarios and reports any unexpected results. We designed it to be extremely easy and intuitive to add scenarios.</p></li>
+<li><p>We’ve developed a prototype for a management Shiny app that allows easy editing and maintenance of all checks.</p></li>
+<li>We’re exploring different types of data checks, such as value-dependent checks (implementation is very soon), and even how to facilitate checks from external R packages.
 </td>
 <td>
 <img src="/bdchecks_files/figure-html/Arc_bdchecks_overview.svg" width="100%" />
 </td>
 </tr>
-</table>
+</table></li>
+</ul>
 <table>
-<col width="55%">
+<col width="50%">
 <tr>
+<td>
+<img src="/bdchecks_files/figure-html/Arc_bdchecks_app.svg" width="100%" />
+</td>
 <td>
 <img src="/bdchecks_files/figure-html/bdchecks_shiny.gif" width="100%" />
 </td>
-<td>
-<p><strong>Shiny app key features:</strong></p>
-<ul>
-<li>Feature 1</li>
-<li>Feature 2</li>
-<li>Feature 3</li>
-<li>Feature 4
-</td>
 </tr>
-</table></li>
-</ul>
+</table>
 <div id="resources" class="section level2">
 <h2>Resources</h2>
 <table style="width:45%">
