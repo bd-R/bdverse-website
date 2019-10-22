@@ -89,8 +89,6 @@ footer.footer-dark .footer-column ul.link-list {
 h1 { 
     display: block;
     font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -98,8 +96,6 @@ h1 {
 h2 {
     display: block;
     font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -115,8 +111,6 @@ h3 {
 }
 h4 { 
     display: block;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -124,8 +118,6 @@ h4 {
 h5 { 
     display: block;
     font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -133,11 +125,16 @@ h5 {
 h6 { 
     display: block;
     font-size: .67em;
-    margin-top: 2.33em;
-    margin-bottom: 2.33em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+}
+.title {
+    color: black;
+}
+
+.packages .title{
+    color: #f39200;
 }
 
 .title {
@@ -156,12 +153,10 @@ table td {
     margin-top: 3%;
     position: absolute;
 }
-
 #section2 .media.icon-box .media-content .content p .icon-box-text{
     margin-left: 25%;
     margin-bottom: 5%;
 }
-
 #section2 .media.icon-box .media-content .content p .icon-box-title{
     margin-bottom: 5%;
 } */
