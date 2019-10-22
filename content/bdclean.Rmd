@@ -27,20 +27,23 @@ In order for `bdclean` to truly be practical, several unique and challenging R c
   </tr>
 </table>
 
-<table>
-  <col width="50%">
+
+
+
+<table style="width:100%">
   <col width="50%">
   <tr>
-      <td>
+    <td>
     ```{r, echo = FALSE, out.width= "100%"}
     knitr::include_graphics("bdclean_files/figure-html/Arc_bdclean_app.svg")
     ```
-     </td>
-      <td>
-      **To add bdclean app aninated gifs** 
+    </td>
+    <td>
+    **To add bdclean app aninated gifs** 
     </td>
   </tr>
 </table>
+
 
 
 ## Resources
