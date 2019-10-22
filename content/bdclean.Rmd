@@ -27,7 +27,7 @@ include_footer: true
 </table>
 
 <table>
-  <col width="55%">
+  <col width="65%">
   <tr>
       <td>
     ```{r, echo = FALSE, out.width= "100%"}

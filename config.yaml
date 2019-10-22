@@ -32,7 +32,7 @@ params:
     - title: User Guide
       url: https://bd-r.github.io/bdverse-user-guide/
     - title: Developer Guide
-      url: https://bd-r.github.io/bdverse-developer-guide/
+      url: https://bd-r.github.io/bdverse-dev-guide/
     - title: Publications
       url: /publications
     - title: GitHub
@@ -118,6 +118,6 @@ params:
       column2:
         title: ""
         links:
-        - text: Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
+        - text: Built with love for supporting biodiversity science | Open Data + Open Source = Open Science | ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
