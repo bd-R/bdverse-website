@@ -118,6 +118,6 @@ params:
       column2:
         title: ""
         links:
-        - text: Built with love for supporting biodiversity science | ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
+        - text: Built for supporting biodiversity science | ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
