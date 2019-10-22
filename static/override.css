@@ -140,6 +140,17 @@ h6 {
     font-weight: bold;
 }
 
+.title {
+    color: black;
+}
+
+.packages .title{
+    color: #f39200;
+}
+
+table td {
+    vertical-align: middle;
+}
 /*
 #section2 .image {
     margin-top: 3%;
