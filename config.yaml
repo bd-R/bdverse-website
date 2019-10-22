@@ -111,7 +111,7 @@ params:
     - link: https://github.com/bd-R
       icon: github
       
-    - link: bd-r-group.slack.com
+    - link: https://bd-r-group.slack.com
       icon: slack
       
     - link: mailto:biodatr@gmail.com
@@ -124,6 +124,7 @@ params:
       column2:
         title: ""
         links:
-        - text: Built for supporting biodiversity science | ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
+        - text: Built for supporting biodiversity science
+        - text: ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 

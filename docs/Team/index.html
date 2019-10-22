@@ -1,375 +1,360 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>bdverse</title>
-    
-<link rel="icon" type="image/png" href="/images/icon.png" />
-<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="../css/style.min.90e79d931dd7cbbc3a657115e4b0d9b131892ce20e05d1f3176a3dfbe94ef1c4.css" integrity="sha256-kOedkx3Xy7w6ZXEV5LDZsTGJLOIOBdHzF2o9&#43;&#43;lO8cQ=">
-<link rel="stylesheet" type="text/css" href="../css/icons.css">
-
-<link rel="stylesheet" type="text/css" href="../override.css">
-
-
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/team.css">
-<!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
-
-
-  </head>
-  <body>
-    
-    <div id="preloader">
-      <div id="status"></div>
-    </div>
-
-    
-
-    
-    <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="../">
-            <img src="/images/bdverse_logo_color.svg">
-          </a>
-    
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-    
-          <div id="navbar-menu" class="navbar-menu is-static">
-    
-            <div class="navbar-end">
-              <a href="../bddwc" class="navbar-item is-secondary">
-                bddwc
-              </a>
-              <a href="../bdchecks" class="navbar-item is-secondary">
-                bdchecks
-              </a>
-              <a href="../bdclean" class="navbar-item is-secondary">
-                bdclean
-              </a>
-              <a href="../bdvis" class="navbar-item is-secondary">
-                bdvis
-              </a>
-              <a href="../bdtools" class="navbar-item is-secondary">
-                bdtools
-              </a>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Resources
-                </a>
-    
-                <div class="navbar-dropdown">
-                  <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
-                    User Guide
-                  </a>
-                  <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
-                    Developer Guide
-                  </a>
-                  <a href="../publications" class="navbar-item">
-                    Publications
-                  </a>
-                  <a href="https://github.com/bd-R" class="navbar-item">
-                    GitHub
-                  </a>
-                </div>
-              </div>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  About
-                </a>
-    
-                <div class="navbar-dropdown">
-                  <a href="../Team" class="navbar-item">
-                    The Team
-                  </a>
-                  <a href="../fundings" class="navbar-item">
-                    Fundings
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>bdverse</title>
+      <link rel="icon" type="image/png" href="/images/icon.png" />
+      <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../css/style.min.90e79d931dd7cbbc3a657115e4b0d9b131892ce20e05d1f3176a3dfbe94ef1c4.css" integrity="sha256-kOedkx3Xy7w6ZXEV5LDZsTGJLOIOBdHzF2o9&#43;&#43;lO8cQ=">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+      <link rel="stylesheet" type="text/css" href="../css/icons.css">
+      <link rel="stylesheet" type="text/css" href="../override.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/team.css">
+      <!-- Main css -->
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div id="preloader">
+         <div id="status"></div>
       </div>
-    </nav>
-    
-    
-    
-    <nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="../">
-            <img src="/images/bdverse_logo_color.svg">
-          </a>
-    
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-    
-        <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
-    
-          <div class="navbar-end">
-            <a href="../bddwc" class="navbar-item is-secondary">
-              bddwc
-            </a>
-            <a href="../bdchecks" class="navbar-item is-secondary">
-              bdchecks
-            </a>
-            <a href="../bdclean" class="navbar-item is-secondary">
-              bdclean
-            </a>
-            <a href="../bdvis" class="navbar-item is-secondary">
-              bdvis
-            </a>
-            <a href="../bdtools" class="navbar-item is-secondary">
-              bdtools
-            </a>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                Resources
-              </a>
-    
-              <div class="navbar-dropdown">
-                <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
-                  User Guide
-                </a>
-                <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
-                  Developer Guide
-                </a>
-                <a href="../publications" class="navbar-item">
-                  Publications
-                </a>
-                <a href="https://github.com/bd-R" class="navbar-item">
-                  GitHub
-                </a>
-              </div>
+      <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+         <div class="container">
+            <div class="navbar-brand">
+               <a class="navbar-item" href="../">
+               <img src="/images/bdverse_logo_color.svg">
+               </a>
+               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+               <span aria-hidden="true"></span>
+               <span aria-hidden="true"></span>
+               <span aria-hidden="true"></span>
+               </a>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                About
-              </a>
-    
-              <div class="navbar-dropdown">
-                <a href="../Team" class="navbar-item">
-                  The Team
-                </a>
-                <a href="../fundings" class="navbar-item">
-                  Fundings
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    </nav>
-
-
-<!-- =========================
-    TEAM SECTION   
-============================== -->
-<section id="speakers" class="parallax-section" ">
-    <div class="heading wow fadeInUp" data-wow-delay="0.2s">
-      <b><h1>OUR TEAM</h1></b>
-      <span class="seperator"></span>
-    </div>
-    <div class="head members">
-      <div class="card wow fadeInLeft" data-wow-delay="1s">
-        <div class="card-front">
-          <img src="images/team/Yohay.png" alt="">
-          <div class="badge">
-            <img src="images/team/head.png" alt="">
-          </div>
-        </div>
-        <div class="card-back">
-          <div class="details">
-            <h2 class="name">Yohay Carmel​</h2>
-            <span class="seperator"></span>
-            <div class="links">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card wow fadeInRight" data-wow-delay="1s">
-        <div class="card-front">
-          <img src="images/team/Tomer.png" alt="">
-          <div class="badge">
-            <img src="images/team/head.png" alt="">
-          </div>
-        </div>
-        <div class="card-back">
-          <div class="details">
-            <h2 class="name">Tomer Gueta​</h2>
-            <span class="seperator"></span>
-            <div class="links">
-              <a href="https://github.com/tom-gu" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/tomer-gueta-0382bb76/?originalSubdomain=il" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card wow fadeInRight" data-wow-delay="1s">
-        <div class="card-front">
-          <img src="images/team/vijay.jpeg" alt="">
-          <div class="badge">
-            <img src="images/team/head.png" alt="">
-          </div>
-        </div>
-        <div class="card-back">
-          <div class="details">
-            <h2 class="name">Vijay Barve​</h2>
-            <span class="seperator"></span>
-            <div class="links">
-              <a href="https://github.com/vijaybarve" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/vijaybarve/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="members">
-      <div class="card 1 wow fadeInUp" data-wow-delay=".5s">
-        <div class="card-front"><img src="images/team/thiloshon.png" alt=""></div>
-        <div class="card-back">
-          <div class="details">
-            <h2 class="name">Thiloshon Nagarajah​</h2>
-            <span class="seperator"></span>
-            <div class="links">
-              <a href="https://github.com/thiloshon" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/thiloshon/?originalSubdomain=lk" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card 2 wow fadeInUp" data-wow-delay=".7s">
-        <div class="card-front"><img src="images/team/povilas.jpeg" alt=""></div>
-        <div class="card-back">
-          <div class="details">
-            <h2 class="name">Povilas Gibas​​</h2>
-            <span class="seperator"></span>
-            <div class="links">
-              <a href="https://github.com/PoGibas" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/povilas-gibas-541b47157/?originalSubdomain=lt "target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card 3 wow fadeInUp" data-wow-delay=".9s">
-        <div class="card-front"><img src="images/team/rahul.png" alt=""></div>
-        <div class="card-back">
-          <div class="details">
-            <h2 class="name">Rahul Chauhan</h2>
-            <span class="seperator"></span>
-            <div class="links">
-              <a href="https://github.com/rahulchauhan049" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/rahul-chauhan-818481b7/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-
-  <footer class="footer footer-dark">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <div class="footer-logo">
-            <img src="/images/bdverse_logo_color_long.svg">
-          </div>
-        </div>
-          <div class="column">
-            <div class="footer-column">
-              <div class="footer-header">
-                  <h3></h3>
-              </div>
-              <ul class="link-list">
-                <li>
-                  <a href="">
-                    Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
+            <div id="navbar-menu" class="navbar-menu is-static">
+               <div class="navbar-end">
+                  <a href="../bddwc" class="navbar-item is-secondary">
+                  bddwc
                   </a>
-                </li>
-              </ul>
+                  <a href="../bdchecks" class="navbar-item is-secondary">
+                  bdchecks
+                  </a>
+                  <a href="../bdclean" class="navbar-item is-secondary">
+                  bdclean
+                  </a>
+                  <a href="../bdvis" class="navbar-item is-secondary">
+                  bdvis
+                  </a>
+                  <a href="../bdtools" class="navbar-item is-secondary">
+                  bdtools
+                  </a>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                     <a class="navbar-link">
+                     Resources
+                     </a>
+                     <div class="navbar-dropdown">
+                        <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
+                        User Guide
+                        </a>
+                        <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
+                        Developer Guide
+                        </a>
+                        <a href="../publications" class="navbar-item">
+                        Publications
+                        </a>
+                        <a href="https://github.com/bd-R" class="navbar-item">
+                        GitHub
+                        </a>
+                     </div>
+                  </div>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                     <a class="navbar-link">
+                     About
+                     </a>
+                     <div class="navbar-dropdown">
+                        <a href="../Team" class="navbar-item">
+                        The Team
+                        </a>
+                        <a href="../fundings" class="navbar-item">
+                        Fundings
+                        </a>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-        <div class="column">
-          <div class="footer-column">
-            <div class="footer-header">
-              <h3></h3>
-              <nav class="level is-mobile">
-                <div class="level-left">
-                  <a class="level-item" href="https://github.com/bd-R">
-                    <span class="icon"><i class="fa fa-github"></i></span>
-                  </a>
-                  <a class="level-item" href="https://dribbble.com/#">
-                    <span class="icon"><i class="fa fa-dribbble"></i></span>
-                  </a>
-                  <a class="level-item" href="https://facebook.com/#">
-                    <span class="icon"><i class="fa fa-facebook"></i></span>
-                  </a>
-                  <a class="level-item" href="https://twitter.com/lucperkins">
-                    <span class="icon"><i class="fa fa-twitter"></i></span>
-                  </a>
-                  <a class="level-item" href="https://bitbucket.org/#">
-                    <span class="icon"><i class="fa fa-bitbucket"></i></span>
-                  </a>
-                </div>
-              </nav>
+         </div>
+      </nav>
+      <nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+         <div class="container">
+            <div class="navbar-brand">
+               <a class="navbar-item" href="../">
+               <img src="/images/bdverse_logo_color.svg">
+               </a>
+               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+               <span aria-hidden="true"></span>
+               <span aria-hidden="true"></span>
+               <span aria-hidden="true"></span>
+               </a>
             </div>
-          </div>
-        </div>
+            <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+               <div class="navbar-end">
+                  <a href="../bddwc" class="navbar-item is-secondary">
+                  bddwc
+                  </a>
+                  <a href="../bdchecks" class="navbar-item is-secondary">
+                  bdchecks
+                  </a>
+                  <a href="../bdclean" class="navbar-item is-secondary">
+                  bdclean
+                  </a>
+                  <a href="../bdvis" class="navbar-item is-secondary">
+                  bdvis
+                  </a>
+                  <a href="../bdtools" class="navbar-item is-secondary">
+                  bdtools
+                  </a>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                     <a class="navbar-link">
+                     Resources
+                     </a>
+                     <div class="navbar-dropdown">
+                        <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
+                        User Guide
+                        </a>
+                        <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
+                        Developer Guide
+                        </a>
+                        <a href="../publications" class="navbar-item">
+                        Publications
+                        </a>
+                        <a href="https://github.com/bd-R" class="navbar-item">
+                        GitHub
+                        </a>
+                     </div>
+                  </div>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                     <a class="navbar-link">
+                     About
+                     </a>
+                     <div class="navbar-dropdown">
+                        <a href="../Team" class="navbar-item">
+                        The Team
+                        </a>
+                        <a href="../fundings" class="navbar-item">
+                        Fundings
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- =========================
+         TEAM SECTION   
+         ============================== -->
+      <div class="container team-content">
+         <div class="content-wrapper">
+            <h1>Meet the Stars behind bdverse</h1>
+            <br/>
+            <div class="columns">
+              
+               <div class="column is-one-third">
+                  
+                  <div class="card-icon">
+                     <img src="images/team/Tomer.png">
+                     <h4>Tomer Gueta</h4>
+                  </div>
+                  <br/>
+                  <div class="card-text">
+                     <p>Tomer is a Post Doctoral Researcher at Technion, Isreal</p>
+                     <br/>
+                     <p>He is the Lead of bdverse.</p>
+                  </div>
+                  <div class="card-action">
+                     <a class="level-item" href="">
+                     <span class="icon"><i class="fab fa-github"></i></span>
+                     </a>
+                  </div>
+               </div>
+               
+               <div class="column is-one-third">
+                  
+                  <div class="card-icon">
+                     <img src="images/team/v.png">
+                     <h4>Vijay V Barve</h4>
+                  </div>
+                  <br/>
+                  <div class="card-text">
+                     <p>Vijay, is a Post Doctoral Researcher from India, currently with Florida Museum of Natural History. He has a Master's degree in Computer Science and PhD in Geography. He has been working in the field of Biodiversity Informatics for several years and his interest are mainly in Citizens Science and Biodiversity Data Visualization.</p>
+                     <br/>
+                     <p>Vijay has been involved with bdverse from the beginning and has contributed to all aspects of bdverse from initial conceptualization, design, coding to mentoring Google Summer of Code students.</p>
+                  </div>
+                  <div class="card-action">
+                     <a class="level-item" href="">
+                     <span class="icon"><i class="fab fa-github"></i></span>
+                     </a>
+                  </div>
+               </div>
+               
+               <div class="column is-one-third">
+                  
+                  <div class="card-icon">
+                     <img src="images/team/n.png">
+                     <h4>Thiloshon N  </h4>
+                  </div>
+                  <br/>
+                  <div class="card-text">
+                     <p>Thiloshon, is a Software Engineer hailing from Colombo, Sri Lanka. He holds a bachelor's degree in Software Engineering from University of Westminster, UK. Thilo, leads a double life, as a Java Developer by day; working at WSO2 for FinTech solutions of European Banks, and as an R enthusiast by night; a life of open source.</p>
+                     <br/>
+                     <p>Thilo joined bdverse as a Google Summer of Code student developer in 2017 and has been a student, contributor, mentor and now, a core member of bdverse team. All things Shiny of bdverse, is a magic of Thilo.</p>
+                  </div>
+                  <div class="card-action">
+                     <a class="level-item" href="">
+                     <span class="icon"><i class="fab fa-github"></i></span>
+                     </a>
+                  </div>
+               </div>
+               
+               
+
+            </div>
+            <div class="columns">
+              
+               
+               <div class="column is-one-third">
+                 
+                  <div class="card-icon">
+                     <img src="images/team/p.png">
+                      <h4>Povilas Gibas</h4>
+                  </div>
+                  <br/>
+                  <div class="card-text">
+                     <p>Povilas is a PhD candidate in biomedical data analysis expected to graduate in 2020. He is interested in statistical computing, computational data-analysis workflows and data-visualisation. When he is not working you can find him on stackoverflow.org where he is learning and helping others to learn new things about R or at the karate class.</p>
+                     <br/>
+                     <p>Povilas joined bdverse in 2018 as Google Summer of Code student and since then he is perfecting data-analysis workflows of bdchecks and bdDwC.</p>
+                  </div>
+                  <div class="card-action">
+                     <a class="level-item" href="">
+                     <span class="icon"><i class="fab fa-github"></i></span>
+                     </a>
+                  </div>
+               </div>
+               <div class="column is-one-third">
+                  
+                  <div class="card-icon">
+                     <img src="images/team/rahul.png">
+                     <h4>Rahul Chauhan</h4>
+                  </div>
+                  <br/>
+                  <div class="card-text">
+                     <p>Rahul is a Software Engineer from India who has a specialization in Data Analytics. He is pursuing computer science from Galgotias University, India. He loves to teach other students and conduct free workshops all over India. Besides his career, he loves to contribute to open-source.</p>
+                     <br/>
+                     <p>Rahul joined bdverse as a Google Summer of Code student developer in 2019. During GSOC he develops an interactive shiny package that allows the user to visualize different aspects of bioDiversity data such as temporal, taxonomic and spatial without worrying about coding. </p>
+                  </div>
+                  <div class="card-action">
+                     <a class="level-item" href="">
+                     <span class="icon"><i class="fab fa-github"></i></span>
+                     </a>
+                  </div>
+               </div>
+               
+               <div class="column is-one-third">
+                  
+                  <div class="card-icon">
+                     <img src="images/team/Yohay.png">
+                     <h4>Yohay Carmel</h4>
+                  </div>
+                  <br/>
+                  <div class="card-text">
+                     <p>Yohay is a professor at Technion, Isreal.</p>
+                     <br/>
+                     <p>He supervises project.</p>
+                  </div>
+                  <div class="card-action">
+                     <a class="level-item" href="">
+                     <span class="icon"><i class="fab fa-github"></i></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            
+           
+              
+            
+            
+            </div>
+         
       </div>
-    </div>
-  </footer>
-
-
-    
-
-    
-  <div id="backtotop"><a href="#"></a></div>
-
-    
-    
-
-
-    
-  <div id="backtotop"><a href="#"></a></div>
-
-    
-
-    
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://unpkg.com/feather-icons"></script>
-<script src="../js/fresh.js"></script>
-<script src="../js/jquery.panelslider.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<!-- =========================
-     SCRIPTS   
-============================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-  </body>
+      <footer class="footer footer-dark">
+         <div class="container">
+            <div class="columns">
+               <div class="column">
+                  <div class="footer-logo">
+                     <img src="/images/bdverse_logo_color_long.svg">
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="footer-column">
+                     <div class="footer-header">
+                        <h3></h3>
+                     </div>
+                     <ul class="link-list">
+                        <li>
+                           <a href="">
+                           Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="footer-column">
+                     <div class="footer-header">
+                        <h3></h3>
+                        <nav class="level is-mobile">
+                           <div class="level-left">
+                              <a class="level-item" href="https://github.com/bd-R">
+                              <span class="icon"><i class="fa fa-github"></i></span>
+                              </a>
+                              <a class="level-item" href="https://dribbble.com/#">
+                              <span class="icon"><i class="fa fa-dribbble"></i></span>
+                              </a>
+                              <a class="level-item" href="https://facebook.com/#">
+                              <span class="icon"><i class="fa fa-facebook"></i></span>
+                              </a>
+                              <a class="level-item" href="https://twitter.com/lucperkins">
+                              <span class="icon"><i class="fa fa-twitter"></i></span>
+                              </a>
+                              <a class="level-item" href="https://bitbucket.org/#">
+                              <span class="icon"><i class="fa fa-bitbucket"></i></span>
+                              </a>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div id="backtotop"><a href="#"></a></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://unpkg.com/feather-icons"></script>
+      <script src="../js/fresh.js"></script>
+      <script src="../js/jquery.panelslider.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+      <!-- =========================
+         SCRIPTS   
+         ============================== -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.parallax.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/smoothscroll.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   </body>
 </html>
