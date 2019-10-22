@@ -137,17 +137,19 @@ h6 {
     color: #f39200;
 }
 
+
+table td {
+    vertical-align: middle;
+}
 /*
 #section2 .image {
     margin-top: 3%;
     position: absolute;
 }
-
 #section2 .media.icon-box .media-content .content p .icon-box-text{
     margin-left: 25%;
     margin-bottom: 5%;
 }
-
 #section2 .media.icon-box .media-content .content p .icon-box-title{
     margin-bottom: 5%;
 } */
