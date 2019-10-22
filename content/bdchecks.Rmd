@@ -13,14 +13,14 @@ include_footer: true
 </style>
 
 <table style="width:100%">
-  <col width="25%">
-  <tr>
-    <td>
+<col width="25%">
+<tr>
+<td>
     ```{r, echo = FALSE, out.width= "100%"}
     knitr::include_graphics("bdchecks_files/figure-html/bdchecks_hexsticker@2x.png")
     ```
-    </td>
-    <td>
+</td>
+<td>
 `bdchecks` is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.
 
 `bdchecks` offers various features for different types of R users:
@@ -30,8 +30,8 @@ include_footer: true
 * Full command line functionality for more experienced R users.
 
 * Advanced R users can easily edit, add and manage their own collection of data checks, using one single YAML file and only two supporting R functions.
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
 <table>
