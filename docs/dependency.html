@@ -930,6 +930,10 @@ return function(){for(var n=0,e=0;e<t;++e)n+=Math.random();return n}},um=functio
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("charge", d3.forceManyBody().strength(options.charge))
       .on("tick", tick);
+      
+     
+      
+
 
     force.alpha(1).restart();
 
@@ -1049,6 +1053,8 @@ return function(){for(var n=0,e=0;e<t;++e)n+=Math.random();return n}},um=functio
       .style("font", options.fontSize + "px " + options.fontFamily)
       .style("opacity", options.opacityNoHover)
       .style("pointer-events", "none");
+      
+     
 
     function tick() {
       node.attr("transform", function(d) {
@@ -4338,13 +4344,13 @@ return function(){for(var n=0,e=0;e<t;++e)n+=Math.random();return n}},um=functio
              "images/star.png",
              "images/star.png",
              "images/star.png",
-             "images/constellation_stickers/bddwc.png",
-             "images/constellation_stickers/bdchecks.png",
-             "images/constellation_stickers/bdchecks_app.png",
-             "images/constellation_stickers/bdclean.png",
-             "images/constellation_stickers/bddwc_app.png",
-             "images/constellation_stickers/bdutilities.png",
-             "images/constellation_stickers/bdutilities_app.png",
+             "images/bdDwC-favicon.png",
+             "images/bdchecks-favicon.png",
+             "images/bdchecks.app-favicon.png",
+             "images/bdclean-favicon.png",
+             "images/bddwc.app-favicon.png",
+             "images/bdutilities-favicon.png",
+             "images/bdutilities.app-favicon.png",
              "/images/bdverse-favicon.png",
              "images/star.png",
              "images/star.png",
@@ -4491,7 +4497,7 @@ return function(){for(var n=0,e=0;e<t;++e)n+=Math.random();return n}},um=functio
           "clickTextSize":17.5,
           "linkDistance":"function(d){return d.value * 2}",
           "linkWidth":"1",
-          "charge":-150,
+          "charge":-75,
           "opacity":0.8,
           "zoom":false,
           "legend":false,
