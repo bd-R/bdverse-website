@@ -187,6 +187,12 @@ table {
   text-justify: inter-word;
 }
 
+.card-action {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 
 /*
 #section2 .image {
