@@ -16,10 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bdchecks/</guid>
-      <description>table, th, td { text-align: left; padding: 10px; vertical-align: middle; }      bdchecks is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.
+      <description>table, th, td {text-align: left;padding: 10px;vertical-align: middle;}bdchecks is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.
 bdchecks offers various features for different types of R users:
- An interactive and user-friendly Shiny app for inexperienced R users.
- Full command line functionality for more experienced R users.</description>
+An interactive and user-friendly Shiny app for inexperienced R users.
+Full command line functionality for more experienced R users.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ bdchecks offers various features for different types of R users:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bdclean/</guid>
-      <description>table, th, td { text-align: left; padding: 10px; vertical-align: middle; }      bdclean is a user-friendly data cleaning Shiny app for the inexperienced R user. It provides features to manage complete workflow for biodiversity data cleaning, including data upload; user input - in order to adjust cleaning procedures; data cleaning; and finally, generation of various reports and versions of the data (flagged, and cleaned). In order for bdclean to truly be practical, several unique and challenging R components were developed, such as a questionnaire module and high-quality report mechanism.</description>
+      <description>table, th, td {text-align: left;padding: 10px;vertical-align: middle;}bdclean is a user-friendly data cleaning Shiny app for the inexperienced R user. It provides features to manage complete workflow for biodiversity data cleaning, including data upload; user input - in order to adjust cleaning procedures; data cleaning; and finally, generation of various reports and versions of the data (flagged, and cleaned).In order for bdclean to truly be practical, several unique and challenging R components were developed, such as a questionnaire module and high-quality report mechanism.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ bdchecks offers various features for different types of R users:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bddwc/</guid>
-      <description>table, th, td { text-align: left; padding: 10px; vertical-align: middle; }      bdDwC is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdDwC enables you to carefully standardize all field names in your dataset – which allows the bdverse to handle data from various biodiversity data aggregators seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.</description>
+      <description>table, th, td {text-align: left;padding: 10px;vertical-align: middle;}bdDwC is an R package that provides an interactive Shiny app and a set of functions for standardizing field names in compliance with the Darwin Core (DwC) format. Running bdDwC enables you to carefully standardize all field names in your dataset – which allows the bdverse to handle data from various biodiversity data aggregators seamlessly, and lets you enjoy all of its features, regardless of aggregators’ variation in field names.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ bdchecks offers various features for different types of R users:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bdtools/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
@@ -56,7 +56,7 @@ When you click the Knit button a document will be generated that includes both c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bdvis/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
@@ -66,7 +66,7 @@ When you click the Knit button a document will be generated that includes both c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fundings/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
@@ -76,7 +76,7 @@ When you click the Knit button a document will be generated that includes both c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/publications/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
@@ -86,7 +86,7 @@ When you click the Knit button a document will be generated that includes both c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/standing/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
