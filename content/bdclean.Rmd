@@ -40,7 +40,7 @@ In order for `bdclean` to truly be practical, several unique and challenging R c
     </td>
     <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("bdchecks_files/figure-html/bdclean_shiny.gif")
+    knitr::include_graphics("bdclean_files/figure-html/bdclean_shiny.gif")
     ```
     </td>
   </tr>
