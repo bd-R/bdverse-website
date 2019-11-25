@@ -23,7 +23,7 @@ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .main-header .logo {
 }
 
 .packages {
-    margin-top: -20%;
+    margin-top: -15%;
 }
 
 .title {
@@ -67,18 +67,29 @@ footer .column {
     width: 100px;
 }
 
+.team img{
+    height: 150px !important;
+    width: 150px !important;
+    margin-top: -25px !important;
+    margin-bottom: -25px !important;
+}
+
 footer.footer-dark {
     background: lightgrey;
-}
-
-footer.footer-dark .footer-column ul.link-list a{
-    color: black;
-    font-size: 12px;
-}
-
-footer.footer-dark .footer-column ul.link-list {
     
-    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul{
+    color: black !important;
+    font-size: 12px !important;
+}
+
+footer ul {
+    text-align: center !important;
 }
 
 
@@ -129,9 +140,6 @@ h6 {
     margin-right: 0;
     font-weight: bold;
 }
-.title {
-    color: black;
-}
 
 .packages .title{
     color: #f39200;
@@ -141,6 +149,51 @@ h6 {
 table td {
     vertical-align: middle;
 }
+
+.columns .title {
+    color: black;
+}
+
+.title .section-title{
+    color: orange;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+table {
+    font-size: 1.1rem;
+}
+
+.image {
+    z-index: -999;
+    
+}
+
+.team-content h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: orange;
+}
+
+.team-content h4 {
+    text-align: center;
+    font-size: 3rem !important;
+}
+
+.team-content{
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-action {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
 /*
 #section2 .image {
     margin-top: 3%;

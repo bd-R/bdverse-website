@@ -16,6 +16,8 @@
 
 <link rel="stylesheet" type="text/css" href="../override.css">
 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
   </head>
   <body>
     
@@ -66,16 +68,16 @@
             </a>
 
             <div class="navbar-dropdown">
-              <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
+              <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item" target="_blank">
                 User Guide
               </a>
-              <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
+              <a href="https://bd-r.github.io/bdverse-dev-guide/" class="navbar-item" target="_blank">
                 Developer Guide
               </a>
               <a href="../publications" class="navbar-item">
                 Publications
               </a>
-              <a href="https://github.com/bd-R" class="navbar-item">
+              <a href="https://github.com/bd-R" class="navbar-item" target="_blank">
                 GitHub
               </a>
             </div>
@@ -140,19 +142,19 @@
           </a>
 
           <div class="navbar-dropdown">
-            <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
-              User Guide
-            </a>
-            <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
-              Developer Guide
-            </a>
-            <a href="../publications" class="navbar-item">
-              Publications
-            </a>
-            <a href="https://github.com/bd-R" class="navbar-item">
-              GitHub
-            </a>
-          </div>
+              <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item" target="_blank">
+                User Guide
+              </a>
+              <a href="https://bd-r.github.io/bdverse-dev-guide/" class="navbar-item" target="_blank">
+                Developer Guide
+              </a>
+              <a href="../publications" class="navbar-item">
+                Publications
+              </a>
+              <a href="https://github.com/bd-R" class="navbar-item" target="_blank">
+                GitHub
+              </a>
+            </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -160,13 +162,13 @@
           </a>
 
           <div class="navbar-dropdown">
-            <a href="../Team" class="navbar-item">
-              The Team
-            </a>
-            <a href="../fundings" class="navbar-item">
-              Fundings
-            </a>
-          </div>
+              <a href="../Team" class="navbar-item">
+                The Team
+              </a>
+              <a href="../fundings" class="navbar-item">
+                Fundings
+              </a>
+            </div>
         </div>
       </div>
     </div>
@@ -185,24 +187,51 @@
     
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="../bdclean_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<style>
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+  }
+</style>
+<table style="width:100%">
+<col width="25%">
+<tr>
+<td>
+<img src="../bdclean_files/figure-html/bdclean_hexsticker@2x.png" width="100%" />
+</td>
+<td>
+<code>bdclean</code> is a user-friendly data cleaning <a href="https://shiny.rstudio.com">Shiny app</a> for the inexperienced R user. It provides features to manage complete workflow for biodiversity data cleaning, including data upload; user input - in order to adjust cleaning procedures; data cleaning; and finally, generation of various reports and versions of the data (flagged, and cleaned).
+In order for <code>bdclean</code> to truly be practical, several unique and challenging R components were developed, such as <strong>a questionnaire module</strong> and <strong>high-quality report mechanism</strong>. Also, since <code>bdclean</code> was developed for the inexperienced R user, <code>bdclean</code> GUI is highly intuitive.
+</td>
+</tr>
+</table>
+<table style="width:100%">
+<col width="50%">
+<tr>
+<td>
+<img src="../bdclean_files/figure-html/Arc_bdclean_app.svg" width="100%" />
+</td>
+<td>
+<img src="../bdclean_files/figure-html/bdclean_shiny.gif" width="100%" />
+</td>
+</tr>
+</table>
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<table style="width:45%">
+<tr>
+<td>
+<a href="https://bd-r.github.io/bdverse-user-guide/bdclean.html"><img src="../bdclean_files/figure-html/bdclean_user_guide.svg" title="bdclean user guide" /></a>
+</td>
+<td>
+<a href="https://bd-r.github.io/bdverse-dev-guide/architecture.html#bdclean"><img src="../bdclean_files/figure-html/bdclean_dev_guide.svg" title="bdclean development guide" /></a>
+</td>
+<td>
+<a href="https://github.com/bd-R/bdclean"><img src="../bdclean_files/figure-html/bdclean_code.svg" title="bdclean GitHub repo" /></a>
+</td>
+</tr>
+</table>
 </div>
 
   </div>
@@ -227,9 +256,10 @@
             </div>
             <ul class="link-list">
               <li>
-                <a href="">
-                  Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
-                </a>
+                Built for supporting biodiversity science
+              </li>
+              <li>
+                ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
               </li>
             </ul>
           </div>
@@ -241,19 +271,16 @@
             <nav class="level is-mobile">
               <div class="level-left">
                 <a class="level-item" href="https://github.com/bd-R">
-                  <span class="icon"><i class="fa fa-github"></i></span>
+                  <span class="icon"><i class="fab fa-github"></i></span>
                 </a>
-                <a class="level-item" href="https://dribbble.com/#">
-                  <span class="icon"><i class="fa fa-dribbble"></i></span>
+                <a class="level-item" href="https://bd-r-group.slack.com">
+                  <span class="icon"><i class="fab fa-slack"></i></span>
                 </a>
-                <a class="level-item" href="https://facebook.com/#">
-                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                <a class="level-item" href="mailto:biodatr@gmail.com">
+                  <span class="icon"><i class="fab fa-google"></i></span>
                 </a>
-                <a class="level-item" href="https://twitter.com/lucperkins">
-                  <span class="icon"><i class="fa fa-twitter"></i></span>
-                </a>
-                <a class="level-item" href="https://bitbucket.org/#">
-                  <span class="icon"><i class="fa fa-bitbucket"></i></span>
+                <a class="level-item" href="https://hub.docker.com/u/bdverse">
+                  <span class="icon"><i class="fab fa-docker"></i></span>
                 </a>
               </div>
             </nav>

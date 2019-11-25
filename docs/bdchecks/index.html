@@ -16,6 +16,8 @@
 
 <link rel="stylesheet" type="text/css" href="../override.css">
 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
   </head>
   <body>
     
@@ -66,16 +68,16 @@
             </a>
 
             <div class="navbar-dropdown">
-              <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
+              <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item" target="_blank">
                 User Guide
               </a>
-              <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
+              <a href="https://bd-r.github.io/bdverse-dev-guide/" class="navbar-item" target="_blank">
                 Developer Guide
               </a>
               <a href="../publications" class="navbar-item">
                 Publications
               </a>
-              <a href="https://github.com/bd-R" class="navbar-item">
+              <a href="https://github.com/bd-R" class="navbar-item" target="_blank">
                 GitHub
               </a>
             </div>
@@ -140,19 +142,19 @@
           </a>
 
           <div class="navbar-dropdown">
-            <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item">
-              User Guide
-            </a>
-            <a href="https://bd-r.github.io/bdverse-developer-guide/" class="navbar-item">
-              Developer Guide
-            </a>
-            <a href="../publications" class="navbar-item">
-              Publications
-            </a>
-            <a href="https://github.com/bd-R" class="navbar-item">
-              GitHub
-            </a>
-          </div>
+              <a href="https://bd-r.github.io/bdverse-user-guide/" class="navbar-item" target="_blank">
+                User Guide
+              </a>
+              <a href="https://bd-r.github.io/bdverse-dev-guide/" class="navbar-item" target="_blank">
+                Developer Guide
+              </a>
+              <a href="../publications" class="navbar-item">
+                Publications
+              </a>
+              <a href="https://github.com/bd-R" class="navbar-item" target="_blank">
+                GitHub
+              </a>
+            </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -160,13 +162,13 @@
           </a>
 
           <div class="navbar-dropdown">
-            <a href="../Team" class="navbar-item">
-              The Team
-            </a>
-            <a href="../fundings" class="navbar-item">
-              Fundings
-            </a>
-          </div>
+              <a href="../Team" class="navbar-item">
+                The Team
+              </a>
+              <a href="../fundings" class="navbar-item">
+                Fundings
+              </a>
+            </div>
         </div>
       </div>
     </div>
@@ -186,21 +188,42 @@
 
 
 <style>
-  th {
+  table, th, td {
     text-align: left;
+    padding: 10px;
+    vertical-align: middle;
   }
 </style>
-<table>
+<table style="width:100%">
 <col width="25%">
 <tr>
 <td>
-<img src="img/hexstickers/bddwc_hexsticker@2x.png" width="100%" />
+<img src="../bdchecks_files/figure-html/bdchecks_hexsticker@2x.png" width="100%" />
 </td>
 <td>
+<p><code>bdchecks</code> is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.</p>
+<p><code>bdchecks</code> offers various features for different types of R users:</p>
 <ul>
-<li><p>kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd</p></li>
-<li><p>dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd</p></li>
-<li>dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
+<li><p>An interactive and user-friendly Shiny app for inexperienced R users.</p></li>
+<li><p>Full command line functionality for more experienced R users.</p></li>
+<li>Advanced R users can easily edit, add and manage their own collection of data checks, using one single YAML file and only two supporting R functions.</li>
+</ul>
+</td>
+</tr>
+</table>
+<table>
+<col width="50%">
+<tr>
+<td>
+<ul>
+<li><p>Our first mission is to successfully implement all core suite of tests and assertions being developed by TDWG’s Biodiversity Data Quality ‘Task Group 2: Data Quality Tests and Assertions’. <code>bdchecks</code> core is designed to match the test structure, and we also developing and maintaining a synchronization system.</p></li>
+<li><p>Our second mission is developing a complete and easy app reproducibility, we’re on the right track, and we’ll have it soon.</p></li>
+<li><p>We’ve implemented an automated testings scheme that <strong>continually</strong> checks each test with numerous scenarios and reports any unexpected results. We designed it to be extremely easy and intuitive to add scenarios.</p></li>
+<li><p>We’ve developed a prototype for a management Shiny app that allows easy editing and maintenance of all checks.</p></li>
+<li>We’re exploring different types of data checks, such as value-dependent checks (implementation is very soon), and even how to facilitate checks from external R packages.
+</td>
+<td>
+<img src="../bdchecks_files/figure-html/Arc_bdchecks_overview.svg" width="100%" />
 </td>
 </tr>
 </table></li>
@@ -209,21 +232,28 @@
 <col width="50%">
 <tr>
 <td>
-kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
+<img src="../bdchecks_files/figure-html/Arc_bdchecks_app.svg" width="100%" />
 </td>
 <td>
-<img src="Arc_bddwc_overview.svg" width="100%" />
+<img src="../bdchecks_files/figure-html/bdchecks_shiny.gif" width="100%" />
 </td>
 </tr>
 </table>
 <div id="resources" class="section level2">
 <h2>Resources</h2>
-<div id="bddwc-shiny-app" class="section level3">
-<h3>bddwc Shiny app</h3>
-</div>
-<div id="bddwc-r-functionality" class="section level3">
-<h3>bddwc (R functionality)</h3>
-</div>
+<table style="width:45%">
+<tr>
+<td>
+<a href="https://bd-r.github.io/bdverse-user-guide/bdchecks.html"><img src="../bdchecks_files/figure-html/bdchecks_user_guide.svg" title="bdchecks user guide" /></a>
+</td>
+<td>
+<a href="https://bd-r.github.io/bdverse-dev-guide/architecture.html#bdchecks"><img src="../bdchecks_files/figure-html/bdchecks_dev_guide.svg" title="bdchecks development guide" /></a>
+</td>
+<td>
+<a href="https://github.com/bd-R/bdchecks"><img src="../bdchecks_files/figure-html/bdchecks_code.svg" title="bdchecks GitHub repo" /></a>
+</td>
+</tr>
+</table>
 </div>
 
   </div>
@@ -248,9 +278,10 @@ kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd dlsa
             </div>
             <ul class="link-list">
               <li>
-                <a href="">
-                  Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
-                </a>
+                Built for supporting biodiversity science
+              </li>
+              <li>
+                ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
               </li>
             </ul>
           </div>
@@ -262,19 +293,16 @@ kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd dlsa
             <nav class="level is-mobile">
               <div class="level-left">
                 <a class="level-item" href="https://github.com/bd-R">
-                  <span class="icon"><i class="fa fa-github"></i></span>
+                  <span class="icon"><i class="fab fa-github"></i></span>
                 </a>
-                <a class="level-item" href="https://dribbble.com/#">
-                  <span class="icon"><i class="fa fa-dribbble"></i></span>
+                <a class="level-item" href="https://bd-r-group.slack.com">
+                  <span class="icon"><i class="fab fa-slack"></i></span>
                 </a>
-                <a class="level-item" href="https://facebook.com/#">
-                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                <a class="level-item" href="mailto:biodatr@gmail.com">
+                  <span class="icon"><i class="fab fa-google"></i></span>
                 </a>
-                <a class="level-item" href="https://twitter.com/lucperkins">
-                  <span class="icon"><i class="fa fa-twitter"></i></span>
-                </a>
-                <a class="level-item" href="https://bitbucket.org/#">
-                  <span class="icon"><i class="fa fa-bitbucket"></i></span>
+                <a class="level-item" href="https://hub.docker.com/u/bdverse">
+                  <span class="icon"><i class="fab fa-docker"></i></span>
                 </a>
               </div>
             </nav>

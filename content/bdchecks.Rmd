@@ -5,47 +5,90 @@ include_footer: true
 ---
 
 <style>
-  th {
+  table, th, td {
     text-align: left;
+    padding: 10px;
+    vertical-align: middle;
   }
 </style>
 
-<table>
-  <col width="25%">
-  <tr>
-    <td>
+<table style="width:100%">
+<col width="25%">
+<tr>
+<td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("img/hexstickers/bddwc_hexsticker@2x.png")
+    knitr::include_graphics("bdchecks_files/figure-html/bdchecks_hexsticker@2x.png")
     ```
-    </td>
-    <td>
-* kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd
-      
-* dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
-      
-* dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
-    </td>
-  </tr>
+</td>
+<td>
+`bdchecks` is an infrastructure for performing, filtering and managing various biodiversity data checks using R. Data checks are a key to promoting biodiversity data quality.
+
+`bdchecks` offers various features for different types of R users:
+
+* An interactive and user-friendly Shiny app for inexperienced R users.
+
+* Full command line functionality for more experienced R users.
+
+* Advanced R users can easily edit, add and manage their own collection of data checks, using one single YAML file and only two supporting R functions.
+</td>
+</tr>
 </table>
 
 <table>
   <col width="50%">
   <tr>
    <td>
-kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhd dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd dlshdphsd dlashkdaskhds dlsakdhd kdgsldhsd
-  </td>
+
+* Our first mission is to successfully implement all core suite of tests and assertions being developed by TDWG’s Biodiversity Data Quality 'Task Group 2: Data Quality Tests and Assertions'. `bdchecks` core is designed to match the test structure, and we also developing and maintaining a synchronization system.
+
+* Our second mission is developing a complete and easy app reproducibility, we're on the right track, and we'll have it soon.
+
+* We've implemented an automated testings scheme that **continually** checks each test with numerous scenarios and reports any unexpected results. We designed it to be extremely easy and intuitive to add scenarios.
+
+* We've developed a prototype for a management Shiny app that allows easy editing and maintenance of all checks.
+
+* We're exploring different types of data checks, such as value-dependent checks (implementation is very soon), and even how to facilitate checks from external R packages.
+    </td>
+    <td>
+    ```{r, echo = FALSE, out.width= "100%"}
+    knitr::include_graphics("bdchecks_files/figure-html/Arc_bdchecks_overview.svg")
+    ```
+    </td>
+  </tr>
+</table>
+
+
+
+
+<table>
+  <col width="50%">
+  <tr>
       <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("Arc_bddwc_overview.svg")
+    knitr::include_graphics("bdchecks_files/figure-html/Arc_bdchecks_app.svg")
     ```
-      </td>
-    </tr>
+    </td>
+    <td>
+    ```{r, echo = FALSE, out.width= "100%"}
+    knitr::include_graphics("bdchecks_files/figure-html/bdchecks_shiny.gif")
+    ```
+    </td>
+  </tr>
 </table>
+
 
 ## Resources
 
-### bddwc Shiny app
-
-### bddwc (R functionality)
-
-
+<table style="width:45%">
+    <tr>
+    <td>
+      [![](bdchecks_files/figure-html/bdchecks_user_guide.svg "bdchecks user guide")](https://bd-r.github.io/bdverse-user-guide/bdchecks.html)
+    </td>
+    <td>
+      [![](bdchecks_files/figure-html/bdchecks_dev_guide.svg "bdchecks development guide")](https://bd-r.github.io/bdverse-dev-guide/architecture.html#bdchecks)
+    </td>
+    <td>
+      [![](bdchecks_files/figure-html/bdchecks_code.svg "bdchecks GitHub repo")](https://github.com/bd-R/bdchecks)
+    </td>
+  </tr>
+</table>

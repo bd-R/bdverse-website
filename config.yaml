@@ -31,18 +31,24 @@ params:
     sublinks:
     - title: User Guide
       url: https://bd-r.github.io/bdverse-user-guide/
+      blank: true
     - title: Developer Guide
-      url: https://bd-r.github.io/bdverse-developer-guide/
+      url: https://bd-r.github.io/bdverse-dev-guide/
+      blank: true
     - title: Publications
       url: /publications
+      blank: false
     - title: GitHub
       url: https://github.com/bd-R
+      blank: true
   - title: About
     sublinks:
     - title: The Team
       url: /Team
+      blank: false
     - title: Fundings
       url: /fundings
+      blank: false
   section1:
     title: The bdverse 
     subtitle: A family of R packages for biodiversity data.
@@ -94,8 +100,8 @@ params:
   section3:
     title: bdverse
     subtitle: b*iodiversity d*ata uni*verse
-    buttonText: Get started
-    buttonLink: "#"
+    buttonText: Try out bdverse now, in the comfort of your browser!
+    buttonLink: "https://mybinder.org/v2/gh/bd-R/bdverse/master?urlpath=rstudio"
   section5: false
   footer:
     # Logo (from /images/logos/___)
@@ -103,21 +109,22 @@ params:
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/bd-R
-      # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+      
+    - link: https://bd-r-group.slack.com
+      icon: slack
+      
+    - link: mailto:biodatr@gmail.com
+      icon: google
+      
+    - link: https://hub.docker.com/u/bdverse
+      icon: docker
     bulmalogo: false
     quicklinks:
       column2:
         title: ""
         links:
-        - text: Built with love for biodiversity and open source. ©bdverseTeam2019 | GPL3 | Blogdown
+        - text: Built for supporting biodiversity science
+        - text: ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 

@@ -60,9 +60,15 @@
 
             <div class="navbar-dropdown">
               {{- range .sublinks }}
+              {{- if .blank }}
+              <a href="{{ .url }}" class="navbar-item" target="_blank">
+                {{ .title }}
+              </a>
+              {{- else }}
               <a href="{{ .url }}" class="navbar-item">
                 {{ .title }}
               </a>
+              {{- end }}
               {{- end }}
             </div>
           </div>

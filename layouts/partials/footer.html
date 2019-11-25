@@ -21,9 +21,7 @@
             <ul class="link-list">
               {{- range .links }}
               <li>
-                <a href="{{ .link }}">
-                  {{ .text }}
-                </a>
+                {{ .text }}
               </li>
               {{- end }}
             </ul>
@@ -38,7 +36,7 @@
               <div class="level-left">
                 {{- range $socialMedia }}
                 <a class="level-item" href="{{ .link }}">
-                  <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                  <span class="icon"><i class="fab fa-{{ .icon }}"></i></span>
                 </a>
                 {{- end }}
               </div>
