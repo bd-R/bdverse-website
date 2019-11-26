@@ -124,6 +124,7 @@ params:
       column2:
         title: ""
         links:
+        - text: A Technion initiative
         - text: Built for supporting biodiversity science
         - text: ©bdverseTeam2019 | GPL3 | Blogdown | hugo-fresh theme
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
