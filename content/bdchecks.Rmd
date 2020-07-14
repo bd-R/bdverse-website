@@ -51,7 +51,7 @@ include_footer: true
     </td>
     <td>
     ```{r, echo = FALSE, out.width= "100%"}
-    knitr::include_graphics("bdchecks_files/figure-html/Arc_bdchecks_overview.svg")
+    knitr::include_graphics("https://raw.githubusercontent.com/bd-R/bdgraphics/master/arc/bdchecks/arc_bdchecks.svg")
     ```
     </td>
   </tr>
